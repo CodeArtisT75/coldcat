@@ -1,0 +1,38 @@
+{
+  "name": "coldcat",
+  "version": "0.0.1",
+  "description": "nodejs backedend api based on express (inpired by php laravel)",
+  "main": "dist/app.ts",
+  "scripts": {
+    "start": "node ./dist/app.js",
+    "dev": "tsnd ./src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeArtisT75/coldcat.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express"
+  ],
+  "author": "Mohammadhossein.H.J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeArtisT75/coldcat/issues"
+  },
+  "homepage": "https://github.com/CodeArtisT75/coldcat#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node-fetch": "^2.5.7",
+    "@types/request": "^2.48.5",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.49",
+    "typescript": "^3.9.5"
+  }
+}
