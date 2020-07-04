@@ -4,8 +4,8 @@
   "description": "nodejs backedend api based on express (inpired by php laravel)",
   "main": "dist/app.ts",
   "scripts": {
-    "start": "node ./dist/app.js",
-    "dev": "tsnd ./src/app.ts"
+    "start": "node ./dist/bin/www/server.js",
+    "dev": "tsnd ./src/bin/www/server.ts"
   },
   "repository": {
     "type": "git",
