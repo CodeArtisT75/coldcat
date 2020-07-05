@@ -35,7 +35,6 @@ App.use(
 /**
  * use routes in express application
  */
-App.use('/', require('./routes/web'));
 App.use('/api', require('./routes/api'));
 
 export default App;
