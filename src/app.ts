@@ -37,4 +37,4 @@ App.use(
  */
 App.use('/api', require('./routes/api'));
 
-export default App;
+export { App };

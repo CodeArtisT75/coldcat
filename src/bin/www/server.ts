@@ -1,5 +1,5 @@
 import http from 'http';
-import App from '../../app';
+import { App } from '../../app';
 
 /**
  * start listenning to Http Server
