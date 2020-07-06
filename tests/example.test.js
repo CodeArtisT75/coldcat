@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { App } from '../app';
+import { App } from '../src/app';
 
 test('should return /api with status 200', (done) => {
   request(App)
