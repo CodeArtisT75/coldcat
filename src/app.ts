@@ -18,6 +18,11 @@ const App: Application = express();
 const appPort = process.env.APP_PORT || 3000;
 
 /**
+ * set Application variables
+ */
+App.set('port', appPort);
+
+/**
  * add middlewares to express application
  */
 App.use(bodyParser.json());
@@ -30,12 +35,6 @@ App.use(
 /**
  * use routes in express application
  */
-App.use('/', require('./routes/web'));
 App.use('/api', require('./routes/api'));
 
-/**
- * start listenning application
- */
-App.listen(appPort, () => {
-  console.log(`-- ${process.env.APP_NAME || 'ColdCat'} started on port : ${appPort}`);
-});
+export { App };
