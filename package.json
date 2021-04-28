@@ -1,7 +1,7 @@
 {
   "name": "coldcat",
   "version": "0.0.1",
-  "description": "nodejs backedend api based on express (inpired by php laravel)",
+  "description": "nodejs backedend api based on express",
   "main": "dist/app.ts",
   "scripts": {
     "start": "node ./dist/bin/www/server.js",
@@ -14,9 +14,10 @@
   },
   "keywords": [
     "nodejs",
-    "express"
+    "express",
+    "typescript"
   ],
-  "author": "Mohammadhossein.H.J",
+  "author": "CodeArtisT75",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CodeArtisT75/coldcat/issues"
@@ -33,6 +34,7 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-typescript": "^7.10.4",
     "@types/express": "^4.17.6",
+    "@types/node": "^15.0.1",
     "@types/node-fetch": "^2.5.7",
     "@types/request": "^2.48.5",
     "babel-jest": "^26.1.0",
